@@ -1,0 +1,333 @@
+/* navigation bar */
+#header{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #d5daf1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+
+.container-fluid{
+    padding: 2% 10%;
+}
+
+.dot{
+    color: blue;
+}
+
+.navbar{
+    padding: 0 10px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+ .nav-item{
+    position: relative;
+}
+
+
+.navlink::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.nav-link{
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0c0101;
+}
+
+/*homepage */
+.title-img{
+    height: 75%;
+    width: 90%;
+    display: block;
+    position: relative;
+    padding-top: 50px; 
+    border-radius: 15%;
+
+}
+
+#first{
+    background-color: #d5daf1;
+} 
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.home p{
+    color: grey;
+}
+
+.on{
+    color: #08978e;
+}
+
+/* -- feature box --  */
+#feature-box{
+    padding:40px 80px;
+}
+
+.feat-img{
+    width: 120px;
+    height: 75px;
+    border-radius: 2px;
+}
+
+.free{
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    color:#CCCC00;
+    font-weight:600;
+}
+
+.shipping{
+  width: 175px;
+  height: 150px;
+  text-align: center; 
+  padding: 20px 10px;
+  box-shadow: 20px 20px 34px 8px rgba(30, 20, 0, 0.1);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 30px;
+}
+
+.shipping:hover{
+    box-shadow:10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.first-pic{
+    margin-left: 100px;
+}
+
+.online{
+    padding-top: 8px;
+    color: #ff8c00;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+
+.save{
+    padding-top: 8px;
+    color: #e75480;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+
+.happy{
+    padding-top: 8px;
+    color: #228B22;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+
+/* --feature products -- */
+#feature-products{
+    font-family: 'Roboto', sans-serif;
+    padding-top:20px;
+}
+
+#feature-products h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+#feature-products h5{
+    font-weight: 500;
+}
+
+#feature-products h6{
+    color:#088178;
+}
+
+#feature-products p{
+    text-align: center;
+    color:grey;
+}
+
+.apple, .hp{
+    color:grey;
+    padding-bottom: 20px;
+}
+
+.products{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    transition: 0.1s ease;
+}
+
+#feature-products .products:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+
+.feat{
+    display:flex;
+}
+
+.mac, .watch{
+    width:200px;
+    border-radius:5px;
+    padding-top: 30px;
+}
+.keyboard, .iphone{
+    width:200px;
+    border-radius:5px;
+    padding-top: 30px;
+    height: 170px;
+}
+
+.pods{
+    width:200px;
+    border-radius:25px;
+}
+
+.discription p{
+    text-align: left;
+}
+
+.star{
+    padding-bottom: 7px;
+}
+
+.fa{
+    color:#FFD700;
+}
+
+/* -- BANNER SECTION -- */
+
+.ban{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    background-color: purple;
+}
+
+.back-banner{
+    padding-top: 60px; 
+}
+
+#banner span{
+    color: red;
+}
+
+/* -- LAST CONTAINER -- */
+
+#last-container{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+}
+
+#last-container p{
+    text-align: center;
+    color:grey;
+}
+
+#last-container h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+#last-container .products:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* -- NEWS LETTER -- */
+#news-letter{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    padding-top:40px;
+    background-color: #1260cc;
+}
+.news{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#news-letter h3{
+    color:aliceblue;
+    font-weight: 700;
+}
+
+#news-letter p{
+    color:grey;
+}
+
+.special{
+    color:#ff8c00;
+}
+
+.form{
+    padding-left: 180px
+
+
+}
+
+/* -- FOOTER SECTION -- */
+#footer h2{
+    font-weight:100px;
+    padding-bottom: 5px;
+}
+.contact-section{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+}
+
+.fab{
+    padding-right: 5px;
+}
+
+.about{ /* app banayese padding-left gataunii */ 
+    padding-top: 45px;
+    padding-left: 180px;   
+}
+
+.sent{
+    color: gray;
+}
+
+/* SHOP */
+#top-banner span{
+    color:red;
+}
+
+#top-banner h3{
+    color:aliceblue;
+}
+
+#top-banner h6{
+    color:grey;
+}
+
+/* -- button -- */
+.first{
+    padding-top:40px;
+    padding-right:5px;   
+}
+
+#button{
+    text-align: center;
+}
